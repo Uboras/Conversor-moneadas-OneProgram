@@ -31,6 +31,6 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para má
 
 ## Contacto
 
-Para cualquier consulta o sugerencia, por favor contacta a [tu correo electrónico].
+Para cualquier consulta o sugerencia, por favor contacta a [hernanmanera@hotmail.com].
 
 ---
