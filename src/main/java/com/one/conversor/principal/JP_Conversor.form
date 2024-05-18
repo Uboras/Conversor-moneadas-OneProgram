@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" pref="445" max="-2" attributes="0"/>
+              <EmptySpace pref="10" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                      <Component id="jSeparator1" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="89" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Labelusd" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                              <Component id="LabelEUR" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                              <Component id="LabelGBP" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                              <Component id="LabelAUD" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                              <Component id="LabelJPY" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="resGbp" min="-2" pref="79" max="-2" attributes="0"/>
+                                      <Component id="resAud" min="-2" pref="79" max="-2" attributes="0"/>
+                                      <Component id="resJpy" min="-2" pref="79" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="resEur" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                                      <Component id="resUsd" alignment="0" min="-2" pref="79" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="button1" min="-2" pref="131" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="jLabel1" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Labelusd" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="LabelEUR" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="LabelGBP" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="LabelAUD" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="LabelJPY" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="resUsd" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="resEur" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="button1" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="resGbp" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="resAud" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="resJpy" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="resAud">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="--"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resJpy">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="--"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Labelusd">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="USD"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="button1">
+          <Properties>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ebrima" size="24" style="0"/>
+            </Property>
+            <Property name="label" type="java.lang.String" value="Refresh"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LabelEUR">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="EUR"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LabelGBP">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="GBP"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LabelAUD">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="AUD"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LabelJPY">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="JPY"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resEur">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="--"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resGbp">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="--"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resUsd">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="--"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="24" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="66" red="66" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="Conversor de Monedas"/>
+            <Property name="alignmentY" type="float" value="0.0"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="textCantidad" alignment="0" min="-2" pref="98" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="choice1" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="choice2" min="-2" pref="96" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="ButtonConversion" min="-2" pref="131" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="textResult" min="-2" pref="120" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="ButtonConversion1" alignment="1" min="-2" pref="131" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textCantidad" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  <Component id="choice1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="choice2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="textResult" min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ButtonConversion" min="-2" max="-2" attributes="0"/>
+                          <Component id="ButtonConversion1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="122" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="java.awt.Choice" name="choice2">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="choice2.addItem(&quot;AED&quot;);&#xa;choice2.addItem(&quot;AFN&quot;);&#xa;choice2.addItem(&quot;ALL&quot;);&#xa;choice2.addItem(&quot;AMD&quot;);&#xa;choice2.addItem(&quot;ANG&quot;);&#xa;choice2.addItem(&quot;AOA&quot;);&#xa;choice2.addItem(&quot;ARS&quot;);&#xa;choice2.addItem(&quot;AUD&quot;);&#xa;choice2.addItem(&quot;AWG&quot;);&#xa;choice2.addItem(&quot;AZN&quot;);&#xa;choice2.addItem(&quot;BAM&quot;);&#xa;choice2.addItem(&quot;BBD&quot;);&#xa;choice2.addItem(&quot;BDT&quot;);&#xa;choice2.addItem(&quot;BGN&quot;);&#xa;choice2.addItem(&quot;BHD&quot;);&#xa;choice2.addItem(&quot;BIF&quot;);&#xa;choice2.addItem(&quot;BMD&quot;);&#xa;choice2.addItem(&quot;BND&quot;);&#xa;choice2.addItem(&quot;BOB&quot;);&#xa;choice2.addItem(&quot;BRL&quot;);&#xa;choice2.addItem(&quot;BSD&quot;);&#xa;choice2.addItem(&quot;BTN&quot;);&#xa;choice2.addItem(&quot;BWP&quot;);&#xa;choice2.addItem(&quot;BYN&quot;);&#xa;choice2.addItem(&quot;BZD&quot;);&#xa;choice2.addItem(&quot;CAD&quot;);&#xa;choice2.addItem(&quot;CDF&quot;);&#xa;choice2.addItem(&quot;CHF&quot;);&#xa;choice2.addItem(&quot;CLP&quot;);&#xa;choice2.addItem(&quot;CNY&quot;);&#xa;choice2.addItem(&quot;COP&quot;);&#xa;choice2.addItem(&quot;CRC&quot;);&#xa;choice2.addItem(&quot;CUP&quot;);&#xa;choice2.addItem(&quot;CVE&quot;);&#xa;choice2.addItem(&quot;CZK&quot;);&#xa;choice2.addItem(&quot;DJF&quot;);&#xa;choice2.addItem(&quot;DKK&quot;);&#xa;choice2.addItem(&quot;DOP&quot;);&#xa;choice2.addItem(&quot;DZD&quot;);&#xa;choice2.addItem(&quot;EGP&quot;);&#xa;choice2.addItem(&quot;ERN&quot;);&#xa;choice2.addItem(&quot;ETB&quot;);&#xa;choice2.addItem(&quot;EUR&quot;);&#xa;choice2.addItem(&quot;FJD&quot;);&#xa;choice2.addItem(&quot;FKP&quot;);&#xa;choice2.addItem(&quot;FOK&quot;);&#xa;choice2.addItem(&quot;GBP&quot;);&#xa;choice2.addItem(&quot;GEL&quot;);&#xa;choice2.addItem(&quot;GGP&quot;);&#xa;choice2.addItem(&quot;GHS&quot;);&#xa;choice2.addItem(&quot;GIP&quot;);&#xa;choice2.addItem(&quot;GMD&quot;);&#xa;choice2.addItem(&quot;GNF&quot;);&#xa;choice2.addItem(&quot;GTQ&quot;);&#xa;choice2.addItem(&quot;GYD&quot;);&#xa;choice2.addItem(&quot;HKD&quot;);&#xa;choice2.addItem(&quot;HNL&quot;);&#xa;choice2.addItem(&quot;HRK&quot;);&#xa;choice2.addItem(&quot;HTG&quot;);&#xa;choice2.addItem(&quot;HUF&quot;);&#xa;choice2.addItem(&quot;IDR&quot;);&#xa;choice2.addItem(&quot;ILS&quot;);&#xa;choice2.addItem(&quot;IMP&quot;);&#xa;choice2.addItem(&quot;INR&quot;);&#xa;choice2.addItem(&quot;IQD&quot;);&#xa;choice2.addItem(&quot;IRR&quot;);&#xa;choice2.addItem(&quot;ISK&quot;);&#xa;choice2.addItem(&quot;JEP&quot;);&#xa;choice2.addItem(&quot;JMD&quot;);&#xa;choice2.addItem(&quot;JOD&quot;);&#xa;choice2.addItem(&quot;JPY&quot;);&#xa;choice2.addItem(&quot;KES&quot;);&#xa;choice2.addItem(&quot;KGS&quot;);&#xa;choice2.addItem(&quot;KHR&quot;);&#xa;choice2.addItem(&quot;KID&quot;);&#xa;choice2.addItem(&quot;KMF&quot;);&#xa;choice2.addItem(&quot;KRW&quot;);&#xa;choice2.addItem(&quot;KWD&quot;);&#xa;choice2.addItem(&quot;KYD&quot;);&#xa;choice2.addItem(&quot;KZT&quot;);&#xa;choice2.addItem(&quot;LAK&quot;);&#xa;choice2.addItem(&quot;LBP&quot;);&#xa;choice2.addItem(&quot;LKR&quot;);&#xa;choice2.addItem(&quot;LRD&quot;);&#xa;choice2.addItem(&quot;LSL&quot;);&#xa;choice2.addItem(&quot;LYD&quot;);&#xa;choice2.addItem(&quot;MAD&quot;);&#xa;choice2.addItem(&quot;MDL&quot;);&#xa;choice2.addItem(&quot;MGA&quot;);&#xa;choice2.addItem(&quot;MKD&quot;);&#xa;choice2.addItem(&quot;MMK&quot;);&#xa;choice2.addItem(&quot;MNT&quot;);&#xa;choice2.addItem(&quot;MOP&quot;);&#xa;choice2.addItem(&quot;MRU&quot;);&#xa;choice2.addItem(&quot;MUR&quot;);&#xa;choice2.addItem(&quot;MVR&quot;);&#xa;choice2.addItem(&quot;MWK&quot;);&#xa;choice2.addItem(&quot;MXN&quot;);&#xa;choice2.addItem(&quot;MYR&quot;);&#xa;choice2.addItem(&quot;MZN&quot;);&#xa;choice2.addItem(&quot;NAD&quot;);&#xa;choice2.addItem(&quot;NGN&quot;);&#xa;choice2.addItem(&quot;NIO&quot;);&#xa;choice2.addItem(&quot;NOK&quot;);&#xa;choice2.addItem(&quot;NPR&quot;);&#xa;choice2.addItem(&quot;NZD&quot;);&#xa;choice2.addItem(&quot;OMR&quot;);&#xa;choice2.addItem(&quot;PAB&quot;);&#xa;choice2.addItem(&quot;PEN&quot;);&#xa;choice2.addItem(&quot;PGK&quot;);&#xa;choice2.addItem(&quot;PHP&quot;);&#xa;choice2.addItem(&quot;PKR&quot;);&#xa;choice2.addItem(&quot;PLN&quot;);&#xa;choice2.addItem(&quot;PYG&quot;);&#xa;choice2.addItem(&quot;QAR&quot;);&#xa;choice2.addItem(&quot;RON&quot;);&#xa;choice2.addItem(&quot;RSD&quot;);&#xa;choice2.addItem(&quot;RUB&quot;);&#xa;choice2.addItem(&quot;RWF&quot;);&#xa;choice2.addItem(&quot;SAR&quot;);&#xa;choice2.addItem(&quot;SBD&quot;);&#xa;choice2.addItem(&quot;SCR&quot;);&#xa;choice2.addItem(&quot;SDG&quot;);&#xa;choice2.addItem(&quot;SEK&quot;);&#xa;choice2.addItem(&quot;SGD&quot;);&#xa;choice2.addItem(&quot;SHP&quot;);&#xa;choice2.addItem(&quot;SLE&quot;);&#xa;choice2.addItem(&quot;SLL&quot;);&#xa;choice2.addItem(&quot;SOS&quot;);&#xa;choice2.addItem(&quot;SRD&quot;);&#xa;choice2.addItem(&quot;SSP&quot;);&#xa;choice2.addItem(&quot;STN&quot;);&#xa;choice2.addItem(&quot;SYP&quot;);&#xa;choice2.addItem(&quot;SZL&quot;);&#xa;choice2.addItem(&quot;THB&quot;);&#xa;choice2.addItem(&quot;TJS&quot;);&#xa;choice2.addItem(&quot;TMT&quot;);&#xa;choice2.addItem(&quot;TND&quot;);&#xa;choice2.addItem(&quot;TOP&quot;);&#xa;choice2.addItem(&quot;TRY&quot;);&#xa;choice2.addItem(&quot;TTD&quot;);&#xa;choice2.addItem(&quot;TVD&quot;);&#xa;choice2.addItem(&quot;TWD&quot;);&#xa;choice2.addItem(&quot;TZS&quot;);&#xa;choice2.addItem(&quot;UAH&quot;);&#xa;choice2.addItem(&quot;UGX&quot;);&#xa;choice2.addItem(&quot;USD&quot;);&#xa;choice2.addItem(&quot;UYU&quot;);&#xa;choice2.addItem(&quot;UZS&quot;);&#xa;choice2.addItem(&quot;VES&quot;);&#xa;choice2.addItem(&quot;VND&quot;);&#xa;choice2.addItem(&quot;VUV&quot;);&#xa;choice2.addItem(&quot;WST&quot;);&#xa;choice2.addItem(&quot;XAF&quot;);&#xa;choice2.addItem(&quot;XCD&quot;);&#xa;choice2.addItem(&quot;XDR&quot;);&#xa;choice2.addItem(&quot;XOF&quot;);&#xa;choice2.addItem(&quot;XPF&quot;);&#xa;choice2.addItem(&quot;YER&quot;);&#xa;choice2.addItem(&quot;ZAR&quot;);&#xa;choice2.addItem(&quot;ZMW&quot;);&#xa;choice2.addItem(&quot;ZWL&quot;);"/>
+              </AuxValues>
+            </Component>
+            <Component class="java.awt.Button" name="ButtonConversion">
+              <Properties>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ebrima" size="24" style="0"/>
+                </Property>
+                <Property name="label" type="java.lang.String" value="Convertir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonConversionActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="El tipo de cambio es:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cantidad:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="A:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI Black" size="12" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="66" red="66" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Conversor Autom&#xe1;tico"/>
+                <Property name="alignmentY" type="float" value="0.0"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="DE:"/>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Choice" name="choice1">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="choice1.addItem(&quot;AED&quot;);&#xa;choice1.addItem(&quot;AFN&quot;);&#xa;choice1.addItem(&quot;ALL&quot;);&#xa;choice1.addItem(&quot;AMD&quot;);&#xa;choice1.addItem(&quot;ANG&quot;);&#xa;choice1.addItem(&quot;AOA&quot;);&#xa;choice1.addItem(&quot;ARS&quot;);&#xa;choice1.addItem(&quot;AUD&quot;);&#xa;choice1.addItem(&quot;AWG&quot;);&#xa;choice1.addItem(&quot;AZN&quot;);&#xa;choice1.addItem(&quot;BAM&quot;);&#xa;choice1.addItem(&quot;BBD&quot;);&#xa;choice1.addItem(&quot;BDT&quot;);&#xa;choice1.addItem(&quot;BGN&quot;);&#xa;choice1.addItem(&quot;BHD&quot;);&#xa;choice1.addItem(&quot;BIF&quot;);&#xa;choice1.addItem(&quot;BMD&quot;);&#xa;choice1.addItem(&quot;BND&quot;);&#xa;choice1.addItem(&quot;BOB&quot;);&#xa;choice1.addItem(&quot;BRL&quot;);&#xa;choice1.addItem(&quot;BSD&quot;);&#xa;choice1.addItem(&quot;BTN&quot;);&#xa;choice1.addItem(&quot;BWP&quot;);&#xa;choice1.addItem(&quot;BYN&quot;);&#xa;choice1.addItem(&quot;BZD&quot;);&#xa;choice1.addItem(&quot;CAD&quot;);&#xa;choice1.addItem(&quot;CDF&quot;);&#xa;choice1.addItem(&quot;CHF&quot;);&#xa;choice1.addItem(&quot;CLP&quot;);&#xa;choice1.addItem(&quot;CNY&quot;);&#xa;choice1.addItem(&quot;COP&quot;);&#xa;choice1.addItem(&quot;CRC&quot;);&#xa;choice1.addItem(&quot;CUP&quot;);&#xa;choice1.addItem(&quot;CVE&quot;);&#xa;choice1.addItem(&quot;CZK&quot;);&#xa;choice1.addItem(&quot;DJF&quot;);&#xa;choice1.addItem(&quot;DKK&quot;);&#xa;choice1.addItem(&quot;DOP&quot;);&#xa;choice1.addItem(&quot;DZD&quot;);&#xa;choice1.addItem(&quot;EGP&quot;);&#xa;choice1.addItem(&quot;ERN&quot;);&#xa;choice1.addItem(&quot;ETB&quot;);&#xa;choice1.addItem(&quot;EUR&quot;);&#xa;choice1.addItem(&quot;FJD&quot;);&#xa;choice1.addItem(&quot;FKP&quot;);&#xa;choice1.addItem(&quot;FOK&quot;);&#xa;choice1.addItem(&quot;GBP&quot;);&#xa;choice1.addItem(&quot;GEL&quot;);&#xa;choice1.addItem(&quot;GGP&quot;);&#xa;choice1.addItem(&quot;GHS&quot;);&#xa;choice1.addItem(&quot;GIP&quot;);&#xa;choice1.addItem(&quot;GMD&quot;);&#xa;choice1.addItem(&quot;GNF&quot;);&#xa;choice1.addItem(&quot;GTQ&quot;);&#xa;choice1.addItem(&quot;GYD&quot;);&#xa;choice1.addItem(&quot;HKD&quot;);&#xa;choice1.addItem(&quot;HNL&quot;);&#xa;choice1.addItem(&quot;HRK&quot;);&#xa;choice1.addItem(&quot;HTG&quot;);&#xa;choice1.addItem(&quot;HUF&quot;);&#xa;choice1.addItem(&quot;IDR&quot;);&#xa;choice1.addItem(&quot;ILS&quot;);&#xa;choice1.addItem(&quot;IMP&quot;);&#xa;choice1.addItem(&quot;INR&quot;);&#xa;choice1.addItem(&quot;IQD&quot;);&#xa;choice1.addItem(&quot;IRR&quot;);&#xa;choice1.addItem(&quot;ISK&quot;);&#xa;choice1.addItem(&quot;JEP&quot;);&#xa;choice1.addItem(&quot;JMD&quot;);&#xa;choice1.addItem(&quot;JOD&quot;);&#xa;choice1.addItem(&quot;JPY&quot;);&#xa;choice1.addItem(&quot;KES&quot;);&#xa;choice1.addItem(&quot;KGS&quot;);&#xa;choice1.addItem(&quot;KHR&quot;);&#xa;choice1.addItem(&quot;KID&quot;);&#xa;choice1.addItem(&quot;KMF&quot;);&#xa;choice1.addItem(&quot;KRW&quot;);&#xa;choice1.addItem(&quot;KWD&quot;);&#xa;choice1.addItem(&quot;KYD&quot;);&#xa;choice1.addItem(&quot;KZT&quot;);&#xa;choice1.addItem(&quot;LAK&quot;);&#xa;choice1.addItem(&quot;LBP&quot;);&#xa;choice1.addItem(&quot;LKR&quot;);&#xa;choice1.addItem(&quot;LRD&quot;);&#xa;choice1.addItem(&quot;LSL&quot;);&#xa;choice1.addItem(&quot;LYD&quot;);&#xa;choice1.addItem(&quot;MAD&quot;);&#xa;choice1.addItem(&quot;MDL&quot;);&#xa;choice1.addItem(&quot;MGA&quot;);&#xa;choice1.addItem(&quot;MKD&quot;);&#xa;choice1.addItem(&quot;MMK&quot;);&#xa;choice1.addItem(&quot;MNT&quot;);&#xa;choice1.addItem(&quot;MOP&quot;);&#xa;choice1.addItem(&quot;MRU&quot;);&#xa;choice1.addItem(&quot;MUR&quot;);&#xa;choice1.addItem(&quot;MVR&quot;);&#xa;choice1.addItem(&quot;MWK&quot;);&#xa;choice1.addItem(&quot;MXN&quot;);&#xa;choice1.addItem(&quot;MYR&quot;);&#xa;choice1.addItem(&quot;MZN&quot;);&#xa;choice1.addItem(&quot;NAD&quot;);&#xa;choice1.addItem(&quot;NGN&quot;);&#xa;choice1.addItem(&quot;NIO&quot;);&#xa;choice1.addItem(&quot;NOK&quot;);&#xa;choice1.addItem(&quot;NPR&quot;);&#xa;choice1.addItem(&quot;NZD&quot;);&#xa;choice1.addItem(&quot;OMR&quot;);&#xa;choice1.addItem(&quot;PAB&quot;);&#xa;choice1.addItem(&quot;PEN&quot;);&#xa;choice1.addItem(&quot;PGK&quot;);&#xa;choice1.addItem(&quot;PHP&quot;);&#xa;choice1.addItem(&quot;PKR&quot;);&#xa;choice1.addItem(&quot;PLN&quot;);&#xa;choice1.addItem(&quot;PYG&quot;);&#xa;choice1.addItem(&quot;QAR&quot;);&#xa;choice1.addItem(&quot;RON&quot;);&#xa;choice1.addItem(&quot;RSD&quot;);&#xa;choice1.addItem(&quot;RUB&quot;);&#xa;choice1.addItem(&quot;RWF&quot;);&#xa;choice1.addItem(&quot;SAR&quot;);&#xa;choice1.addItem(&quot;SBD&quot;);&#xa;choice1.addItem(&quot;SCR&quot;);&#xa;choice1.addItem(&quot;SDG&quot;);&#xa;choice1.addItem(&quot;SEK&quot;);&#xa;choice1.addItem(&quot;SGD&quot;);&#xa;choice1.addItem(&quot;SHP&quot;);&#xa;choice1.addItem(&quot;SLE&quot;);&#xa;choice1.addItem(&quot;SLL&quot;);&#xa;choice1.addItem(&quot;SOS&quot;);&#xa;choice1.addItem(&quot;SRD&quot;);&#xa;choice1.addItem(&quot;SSP&quot;);&#xa;choice1.addItem(&quot;STN&quot;);&#xa;choice1.addItem(&quot;SYP&quot;);&#xa;choice1.addItem(&quot;SZL&quot;);&#xa;choice1.addItem(&quot;THB&quot;);&#xa;choice1.addItem(&quot;TJS&quot;);&#xa;choice1.addItem(&quot;TMT&quot;);&#xa;choice1.addItem(&quot;TND&quot;);&#xa;choice1.addItem(&quot;TOP&quot;);&#xa;choice1.addItem(&quot;TRY&quot;);&#xa;choice1.addItem(&quot;TTD&quot;);&#xa;choice1.addItem(&quot;TVD&quot;);&#xa;choice1.addItem(&quot;TWD&quot;);&#xa;choice1.addItem(&quot;TZS&quot;);&#xa;choice1.addItem(&quot;UAH&quot;);&#xa;choice1.addItem(&quot;UGX&quot;);&#xa;choice1.addItem(&quot;USD&quot;);&#xa;choice1.addItem(&quot;UYU&quot;);&#xa;choice1.addItem(&quot;UZS&quot;);&#xa;choice1.addItem(&quot;VES&quot;);&#xa;choice1.addItem(&quot;VND&quot;);&#xa;choice1.addItem(&quot;VUV&quot;);&#xa;choice1.addItem(&quot;WST&quot;);&#xa;choice1.addItem(&quot;XAF&quot;);&#xa;choice1.addItem(&quot;XCD&quot;);&#xa;choice1.addItem(&quot;XDR&quot;);&#xa;choice1.addItem(&quot;XOF&quot;);&#xa;choice1.addItem(&quot;XPF&quot;);&#xa;choice1.addItem(&quot;YER&quot;);&#xa;choice1.addItem(&quot;ZAR&quot;);&#xa;choice1.addItem(&quot;ZMW&quot;);&#xa;choice1.addItem(&quot;ZWL&quot;);"/>
+              </AuxValues>
+            </Component>
+            <Component class="java.awt.TextField" name="textCantidad">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textCantidadActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="textResult">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="java.awt.Button" name="ButtonConversion1">
+              <Properties>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ebrima" size="24" style="0"/>
+                </Property>
+                <Property name="label" type="java.lang.String" value="Salir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonConversion1ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
